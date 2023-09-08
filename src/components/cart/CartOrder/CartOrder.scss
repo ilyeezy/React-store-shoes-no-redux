@@ -1,0 +1,51 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  button {
+    position: relative;
+    &:hover {
+      svg {
+        transform: translateX(5px);
+      }
+    }
+    svg {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      transition: transform 0.15s ease-in-out;
+    }
+  }
+  &__total {
+    list-style: none;
+    margin-bottom: 24px;
+    li {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 19px;
+      div {
+        flex: 1;
+        border-bottom: 1px dashed #dfdfdf;
+        margin: 0 10px;
+        position: relative;
+        top: -4px;
+      }
+      span {
+        color: #000;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      b {
+        color: #000;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+}

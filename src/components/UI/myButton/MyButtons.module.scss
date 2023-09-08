@@ -1,0 +1,22 @@
+.btn {
+  height: 55px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: #9dd458;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  &:hover {
+    background: lighten($color: #9dd458, $amount: 7%);
+  }
+  &:active {
+    background: darken($color: #9dd458, $amount: 5%);
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "favorites": [
+    {
+      "id": 2,
+      "title": "Мужские Кроссовки Nike Kyrie 7",
+      "price": "11 299",
+      "img": "/src/assets/img/sneakers/2.png"
+    },
+    {
+      "id": 3,
+      "title": "Мужские Кроссовки Nike Kyrie Flytrap IV",
+      "price": "11 299",
+      "img": "/src/assets/img/sneakers/3.png"
+    }
+  ]
+}
