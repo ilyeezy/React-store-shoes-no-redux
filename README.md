@@ -11,3 +11,8 @@ shoes: json-server --watch db.json --port "your port"
 favorites: json-server --watch favorites.json --port "your port"
 cart: json-server --watch cart.json --port "your port"
 orders: json-server --watch orders.json --port "your port"
+
+
+АНЕКДОТ. Брежнев читает доклад на Олимпийских играх:
+- О! О! О! О! О!
+- Леонид Ильич, текст ниже, это олимпийские кольца.
