@@ -11,7 +11,12 @@ const CartOrder = ({ id, setCart, cart, setOrder }) => {
         cart,
       });
 
-      cart.forEach((el) => axios.delete(`http://localhost:4000/cart/${el.id}`));
+      for (let i = 0; i < data.data.length; i++) {
+        let el = data.data[i];
+        setTimeout(() => {
+          axios.delete(`http://localhost:4000/cart/${el.id}`);
+        }, 1000);
+      }
       setOrder(true);
       setCart([]);
       return data.data;

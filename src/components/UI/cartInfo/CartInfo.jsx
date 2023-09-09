@@ -1,9 +1,7 @@
-import React, { useContext } from "react";
 import MyButton from "../myButton/MyButton";
-import { AppContext } from "../../../context/context";
+
 import "./CartInfo.scss";
-const CartInfo = ({ img, title, description, alt }) => {
-  const { setOpenCart } = useContext(AppContext);
+const CartInfo = ({ img, title, description, alt, onClick }) => {
   return (
     <div className="cartInfo">
       <div className="cartInfo__body">
@@ -15,7 +13,7 @@ const CartInfo = ({ img, title, description, alt }) => {
           <p>{description}</p>
         </div>
 
-        <MyButton onClick={() => setOpenCart(false)}>
+        <MyButton onClick={onClick}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

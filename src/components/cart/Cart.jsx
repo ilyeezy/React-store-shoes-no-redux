@@ -61,10 +61,12 @@ const Cart = ({ setCart, setOpenCart, state }) => {
               title="Заказ оформлен!"
               img="src/assets/img/orderComplete.svg"
               alt="Empty"
+              onClick={() => setOpenCart(false)}
               description={`Ваш заказ ${id} скоро будет передан курьерской доставке`}
             />
           ) : (
             <CartInfo
+              onClick={() => setOpenCart(false)}
               title="Корзина пустая "
               img="src/assets/img/cartEmpty.svg"
               alt="Empty"

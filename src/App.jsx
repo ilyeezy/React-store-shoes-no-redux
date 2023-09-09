@@ -89,7 +89,6 @@ function App() {
         removeFromFavorite,
         inCart,
         setOpenCart,
-
         isLoading,
       }}
     >

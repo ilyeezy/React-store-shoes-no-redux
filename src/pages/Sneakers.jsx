@@ -12,7 +12,6 @@ const Sneakers = () => {
     useContext(AppContext);
 
   const [search, setSearch] = useState("");
-
   const filteredProducts = useMemo(() => {
     return sneakers.filter((el) =>
       el.title.toLowerCase().includes(search.toLowerCase()),

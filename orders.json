@@ -1,53 +1,13 @@
 {
   "orders": [
     {
-      "id": 1694181229066,
+      "id": 1694268679387,
       "cart": [
-        {
-          "id": 1,
-          "title": "Мужские Кроссовки Under Armour Curry 8",
-          "price": "15 199",
-          "img": "/src/assets/img/sneakers/image 5-1.png",
-          "quantity": 1
-        },
         {
           "id": 2,
           "title": "Мужские Кроссовки Nike Kyrie 7",
           "price": "11 299",
           "img": "/src/assets/img/sneakers/2.png",
-          "quantity": 1
-        },
-        {
-          "id": 3,
-          "title": "Мужские Кроссовки Nike Kyrie Flytrap IV",
-          "price": "11 299",
-          "img": "/src/assets/img/sneakers/3.png",
-          "quantity": 1
-        },
-        {
-          "id": 4,
-          "title": "Мужские Кроссовки Jordan Air Jordan 11",
-          "price": "10 799",
-          "img": "/src/assets/img/sneakers/4.png",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 1694181236753,
-      "cart": [
-        {
-          "id": 11,
-          "title": "Мужские Кроссовки Nike Air Max 270",
-          "price": "8 499",
-          "img": "/src/assets/img/sneakers/11.png",
-          "quantity": 1
-        },
-        {
-          "id": 12,
-          "title": "Мужские Кроссовки Nike Air Max 270",
-          "price": "8 999",
-          "img": "/src/assets/img/sneakers/12.png",
           "quantity": 1
         }
       ]
